@@ -1,0 +1,21 @@
+10:24:04 **** Incremental Build of configuration Debug for project RTC_F411re ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "RTC_F411re.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\irsha\STM32CubeIDE\workspace_U1.13.0\RTC_F411re\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="RTC_F411re.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: RTC_F411re.elf
+ 
+arm-none-eabi-size   RTC_F411re.elf 
+arm-none-eabi-objdump -h -S  RTC_F411re.elf  > "RTC_F411re.list"
+   text	   data	    bss	    dec	    hex	filename
+  14184	    112	   2032	  16328	   3fc8	RTC_F411re.elf
+Finished building: default.size.stdout
+ 
+Finished building: RTC_F411re.list
+ 
+10:24:09 **** Incremental Build of configuration Debug for project RTC_F411re ****
+make -j4 all 
+arm-none-eabi-size   RTC_F411re.elf 
+   text	   data	    bss	    dec	    hex	filename
+  14184	    112	   2032	  16328	   3fc8	RTC_F411re.elf
+Finished building: default.size.stdout
+ 

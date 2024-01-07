@@ -1,0 +1,10 @@
+../Drivers/CMSIS/Include/core_cm4.h:2064:26:ITM_SendChar	4
+../Core/Src/main.c:26:5:_write	2
+../Core/Src/main.c:85:5:main	1
+../Core/Src/main.c:187:6:SystemClock_Config	3
+../Core/Src/main.c:240:6:StartTask01	1
+../Core/Src/main.c:272:6:StartTask02	2
+../Core/Src/main.c:311:6:StartTask03	1
+../Core/Src/main.c:342:6:StartTask04	2
+../Core/Src/main.c:378:6:StartTask05	1
+../Core/Src/main.c:405:6:Error_Handler	1

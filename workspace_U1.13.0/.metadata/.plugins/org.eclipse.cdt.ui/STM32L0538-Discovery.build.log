@@ -1,0 +1,10 @@
+16:22:51 **** Incremental Build of configuration Debug for project STM32L0538-Discovery ****
+make -j4 all 
+arm-none-eabi-size   STM32L0538-Discovery.elf 
+   text	   data	    bss	    dec	    hex	filename
+  45924	   3712	   8048	  57684	   e154	STM32L0538-Discovery.elf
+Finished building: default.size.stdout
+ 
+
+16:22:51 Build Finished. 0 errors, 0 warnings. (took 922ms)
+
